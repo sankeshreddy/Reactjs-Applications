@@ -33,12 +33,13 @@ Follow these steps to run the game locally:
    git clone https://github.com/yourusername/tic-tac-toe-react.git
    cd tic-tac-toe-react
 
-### **2️⃣ Install Dependencies**  
-   ```bash
-   npm install
+2️⃣ Install Dependencies
 
-### **3️⃣ Start the Development Server**  
-   ```bash
-   npm start
+npm install
+
+3️⃣ Start the Development Server
+
+npm start
+The game will open at http://localhost:3000
 
 
