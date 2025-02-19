@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+🕹️ Tic Tac Toe Game
+A simple and interactive Tic Tac Toe game built with React.js. Play against a friend and enjoy smooth animations and sound effects!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎮 Live Demo
+Click here to play (Replace with your deployed link if available)
 
-## Available Scripts
+📌 Features
+✅ Two-Player Mode – Take turns playing as X and O
+✅ Win Detection – Automatically detects the winner or a draw
+✅ Strike Animation – Highlights the winning combination
+✅ Sound Effects – Click & game over sounds for an immersive experience
+✅ Responsive UI – Works on desktop and mobile devices
 
-In the project directory, you can run:
+🛠️ Technologies Used
+React.js – Frontend framework
+CSS – Styling and animations
+useState & useEffect – State management and game logic
+Audio API – For sound effects
+🚀 How to Run Locally
+Clone the Repository
 
-### `npm start`
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/tic-tac-toe-react.git
+cd tic-tac-toe-react
+Install Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy
+Edit
+npm install
+Start the Development Server
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy
+Edit
+npm start
+The game will open at http://localhost:3000
 
-### `npm test`
+🏆 How to Play
+Player X starts first.
+Click on an empty tile to place your mark (X or O).
+The game checks for a winner or a draw after each move.
+The winner's tiles will be highlighted.
+Click "Play Again" to reset the board and start a new match.
+📸 Screenshots (Optional)
+Add screenshots of the game here.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔥 Future Enhancements (Optional)
+🎭 AI Mode – Play against a computer opponent
+🎨 Theme Selection – Dark & Light mode
+🌎 Multiplayer – Play with a friend online
+💡 Contributing
+Contributions are welcome! Feel free to submit a pull request or suggest features via issues.
 
-### `npm run build`
+📜 License
+This project is licensed under the MIT License.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you want any modifications! 🚀
