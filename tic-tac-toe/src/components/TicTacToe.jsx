@@ -1,16 +1,29 @@
 import { useState } from "react";
 import Board from "./Board";
 
-function TicTacToe(){
+const PLAYER_X = "X";
+const PLAYER_O = "O"; 
 
-    const PLAYER_X = "X";
-    const PLAYER_O = "O"; 
+function TicTacToe(){
 
     const [tiles, setTiles] = useState(Array(9). fill(null));
     const [playerTurn, setPlayerTurn] = useState(PLAYER_X);
 
     const handleTileClick = (index) =>{
-        console.log(index);
+
+     if(tiles[index] !== null){
+        return;
+     }   
+        // console.log(index);
+        const newTiles = [...tiles];
+        newTiles[index] = playerTurn;
+        setTiles(newTiles);
+
+        if(playerTurn == PLAYER_X){
+            setPlayerTurn(PLAYER_O);
+        }else{
+            setPlayerTurn(PLAYER_X);
+        }
         
     }
 
