@@ -1,8 +1,9 @@
+import TicTacToeComponent from "./Tic-Tac-toe/Tic-Tac-Toe"
 
 const App = () => {
   return (
     <div>
-      App
+      <TicTacToeComponent/>
       </div>
   )
 }
