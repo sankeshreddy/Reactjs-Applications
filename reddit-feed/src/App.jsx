@@ -19,7 +19,7 @@ const RedditFeed = () => {
           setError("Failed to fetch data");
           setLoading(false);
         });
-    }, 3000); // 4-second delay for loading effect
+    }, 3000); // 3-second delay for loading effect
   }, []);
 
   if (loading) {
