@@ -76,7 +76,7 @@ body {
   overflow-y: auto; /* Enables vertical scrolling */
   padding-right: 5px;
   word-wrap: break-word;
-  border-top: 1px solid #ddd; /* Optional: Separates content visually */
+  border-top: 1px solid #ddd; 
 }
 
 /* Custom Scrollbar */
