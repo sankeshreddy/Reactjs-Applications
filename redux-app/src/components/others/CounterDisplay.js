@@ -3,7 +3,9 @@
 const CounterDisplay = () =>{
     return(
         <div>
-            <h1>CounterDisplay</h1>
+            <h1>Counter</h1>
         </div>
     )
 }
+
+export default CounterDisplay;
