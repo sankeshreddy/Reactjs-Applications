@@ -1,0 +1,3 @@
+initializing node js applicaion in backend folder--> npm init -y
+install express--> npm install express (in this project we are using 4.18.2 version)
+to start the server.js--> node server.js
